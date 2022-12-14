@@ -8,16 +8,26 @@
 
 int main(void)
 {
-	long long i, n1 = 1, n2 = 2, next;
-	printf("%lld, %lld", n1, n2);
-	for (i = 2; i < 98; i++)
+	long int sum;
+	long int first, second;
+	int count;
+
+	sum = 0;
+	first = 0;
+	second = 1;
+	count = 0;
+
+	while (count < 97)
 	{
-		next = n1 + n2;
-		printf(", %lld", next);
-		n1 = n2;
-		n2 = next;
+		sum = first + second;
+		printf("%li, ", sum);
+		first = second;
+		second = sum;
+
+		count++;
 	}
-	printf("\n");
+	sum = first + second;
+	printf("%li\n", sum);
 
 	return (0);
 }
