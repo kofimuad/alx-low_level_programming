@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer(from the tv show) - prints every minute of the day
+ * jack_bauer(tv show) - prints every minute of the day
  *
  * Description: prints every minute of the day
  *
@@ -10,7 +10,7 @@
 
 void jack_bauer(void)
 {
-	int hour_tens, hours_ones, minutes_tens, minutes_ones, hours_max;
+	int hours_tens, hours_ones, minutes_tens, minutes_ones, hours_max;
 
 	hours_max = 58;
 	hours_tens = '0';
@@ -18,7 +18,7 @@ void jack_bauer(void)
 	{
 		if (hours_tens == '2')
 		{
-			hour_max = '4';
+			hours_max = '4';
 		}
 		hours_ones = '0';
 		while (hours_ones < hours_max)
