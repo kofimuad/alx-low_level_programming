@@ -2,7 +2,6 @@
 
 /**
  * main -tests function prints if interger positve or negative
- *
  * Return: 0
  */
 
