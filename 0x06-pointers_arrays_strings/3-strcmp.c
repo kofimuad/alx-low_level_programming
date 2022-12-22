@@ -9,10 +9,12 @@
  * Return: Always 0.
  */
 
-int _strcmp(char *s1, char *s2)
+int *_strcmp(char *s1, char *s2)
 {
-	char s1[1000], s2[1000];
-	int i, c = 0;
+	char s1[];
+	char s2[];
+	int i = 0;
+	int c = 0;
 
 	printf("Enter string1: \n");
 	gets(s1);
