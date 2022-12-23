@@ -19,8 +19,8 @@ char *leet(char *n)
 		{
 			if (n[i] == letters[x])
 			{
-				n[i] =replacerNums[x / 2];
-				x= 9;
+				n[i] = replacerNums[x / 2];
+				x = 9;
 			}
 		}
 	}
