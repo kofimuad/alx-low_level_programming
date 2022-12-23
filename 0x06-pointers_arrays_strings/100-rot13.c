@@ -3,6 +3,7 @@
 /**
  *rot13 - encoding a string using rot13.
  *@s: the string to be encoded to rot13.
+ *
  *Return: the string s encoded to rot13.
  */
 
