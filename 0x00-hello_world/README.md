@@ -23,3 +23,6 @@ A script that compiles a C file and creates an executable called cisfun
 ## Task 4 - Hello, puts
 A C program that used puts to print "Programming is like building a multilingual puzzule" followed by a new line
 
+## Task 5 - Hello, printf
+a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. - Use printf function.
+
