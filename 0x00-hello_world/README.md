@@ -20,3 +20,6 @@ We are going to use the -S flag for gcc and we want out output to be .s instead 
 ## Task 3 - Name
 A script that compiles a C file and creates an executable called cisfun
 
+## Task 4 - Hello, puts
+A C program that used puts to print "Programming is like building a multilingual puzzule" followed by a new line
+
