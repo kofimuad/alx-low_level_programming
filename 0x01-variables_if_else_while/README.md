@@ -7,6 +7,9 @@ in order to print whether the number stored in the variable n is positive or neg
 
 ## Task 1 - The last digit
 This program will assign a random number to the variable n each time it is executed.
-Complete the source code in order to print the last digit of the number stored in the variable n. - I used the n % 10 to find 
-the value of the last digit.
+Complete the source code in order to print the last digit of the number stored in the variable n. - Used the n % 10 to find the last digit.
+
+## Task 2 - I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+In this task we are using putchar and only putchar to print the letters of the alphabet followed by a new line.
+To do this I would employ a for loop. 
 
