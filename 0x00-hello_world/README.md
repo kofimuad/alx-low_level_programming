@@ -17,3 +17,6 @@ We are going to use the -c flag for gcc and we want out output to be .o instead 
 A script that generates the assembly code of a C code and saves it into an output file.
 We are going to use the -S flag for gcc and we want out output to be .s instead of .c so we would use shell parameter expansion for that.
 
+## Task 3 - Name
+A script that compiles a C file and creates an executable called cisfun
+
