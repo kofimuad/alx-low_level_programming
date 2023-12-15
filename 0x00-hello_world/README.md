@@ -26,3 +26,6 @@ A C program that used puts to print "Programming is like building a multilingual
 ## Task 5 - Hello, printf
 a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. - Use printf function.
 
+## Task 6 - Size is not grandeur, and territory does not make a nation
+A C program that prints the various types on the computer it is compiled on. sizeof() is used and %d for int output.
+
