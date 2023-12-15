@@ -13,3 +13,6 @@ Complete the source code in order to print the last digit of the number stored i
 In this task we are using putchar and only putchar to print the letters of the alphabet followed by a new line.
 To do this I would employ a for loop. 
 
+## Task 3 - alphABET
+In this code we need to print the alphabet in lower followed by upper case and we just use putchar 3 times.
+
