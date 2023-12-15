@@ -1,7 +1,8 @@
 #include <stdio.h>
-
-/* This is a code that uses the puts function. puts appends a new line so no need for \n */
-
+/**
+ *main - Entry point
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
