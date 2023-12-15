@@ -29,3 +29,6 @@ a C program that prints exactly with proper grammar, but the outcome is a piece 
 ## Task 6 - Size is not grandeur, and territory does not make a nation
 A C program that prints the various types on the computer it is compiled on. sizeof() is used and %d for int output.
 
+## Task 7 - Intel
+A script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
