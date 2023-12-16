@@ -16,3 +16,6 @@ To do this I would employ a for loop.
 ## Task 3 - alphABET
 In this code we need to print the alphabet in lower followed by upper case and we just use putchar 3 times.
 
+## Task 4 - When I was having that alphabet soup, I never thought that it would pay off
+A code that prints all alphabets except q and e, we are going to use a conditional.
+
