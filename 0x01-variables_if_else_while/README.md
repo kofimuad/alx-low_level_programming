@@ -19,3 +19,6 @@ In this code we need to print the alphabet in lower followed by upper case and w
 ## Task 4 - When I was having that alphabet soup, I never thought that it would pay off
 A code that prints all alphabets except q and e, we are going to use a conditional.
 
+## Task 5 - Numbers
+A program that prints all single digit numbers. followed by a new line.
+
