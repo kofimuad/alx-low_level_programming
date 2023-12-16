@@ -29,3 +29,6 @@ its ascii character value.
 ## Task 7 - Smile in the mirror
 A program that prints lowercase alphabets in reverse followed by a new line.
 
+## Task 8 - Hexadecimal
+A script that prints in lowercase all the numbers in base 16. Hexadecimal numbers are from 1 to 9 and A to F.
+
