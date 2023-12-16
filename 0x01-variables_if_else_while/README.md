@@ -35,3 +35,5 @@ A script that prints in lowercase all the numbers in base 16. Hexadecimal number
 ## Task 9 - Patience, persistence and perspiration make an unbeatable combination for success
 A program that prints out all single digit decimal numbers in ascending order, separated by a comma and then a space.
 
+## Task 10 - Inventing is a combination of brains and materials. The more brains you use, the less material you need
+A program that prints all possible different combinations of two digits.
