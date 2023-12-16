@@ -22,3 +22,7 @@ A code that prints all alphabets except q and e, we are going to use a condition
 ## Task 5 - Numbers
 A program that prints all single digit numbers. followed by a new line.
 
+## Task 6 - Numberz
+A program that prints all single digit numbers but this time you are restricted to use 2 putchars. Here, I would employ converting the int into 
+its ascii character value. 
+
