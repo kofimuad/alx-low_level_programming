@@ -26,3 +26,6 @@ A program that prints all single digit numbers. followed by a new line.
 A program that prints all single digit numbers but this time you are restricted to use 2 putchars. Here, I would employ converting the int into 
 its ascii character value. 
 
+## Task 7 - Smile in the mirror
+A program that prints lowercase alphabets in reverse followed by a new line.
+
