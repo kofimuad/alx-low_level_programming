@@ -32,3 +32,6 @@ A program that prints lowercase alphabets in reverse followed by a new line.
 ## Task 8 - Hexadecimal
 A script that prints in lowercase all the numbers in base 16. Hexadecimal numbers are from 1 to 9 and A to F.
 
+## Task 9 - Patience, persistence and perspiration make an unbeatable combination for success
+A program that prints out all single digit decimal numbers in ascending order, separated by a comma and then a space.
+
