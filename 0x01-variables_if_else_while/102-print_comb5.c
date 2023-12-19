@@ -6,26 +6,26 @@
  */
 int main(void)
 {
-	int i;
-	int j;
-	int k;
-	int l;
+	int a;
+	int b;
+	int c;
+	int d;
 
-	for (i = 0; i <= 9; i++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (b = 0; b <= 9; b++)
 		{
-			for (k = i; k <= 9; k++)
+			for (c = a; c <= 9; c++)
 			{
-				for (l = (k == i ? j + 1 : 0); l <= 9; l++)
+				for (d = (c == a ? b + 1 : 0); d <= 9; d++)
 				{
-					putchar(i + '0');
-					putchar(j + '0');
+					putchar(a + '0');
+					putchar(b + '0');
 					putchar(' ');
-					putchar(k + '0');
-					putchar(l + '0');
+					putchar(c + '0');
+					putchar(d + '0');
 
-					if (!(i == 9 && j == 8 && k == 9 && l == 9))
+					if (!(a == 9 && b == 8 && c == 9 && d == 9))
 					{
 						putchar(',');
 						putchar(' ');
