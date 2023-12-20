@@ -2,11 +2,11 @@
 /**
  * _abs - computes the absolute value of an interger
  *
- * @int: interger to be computed in this case is in the variable r
+ * @r: interger to be computed in this case is in the variable r
  *
  * Return: Always r (Success)
  */
-int _abs(int)
+int _abs(int r)
 {
 	int r;
 
