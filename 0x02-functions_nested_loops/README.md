@@ -35,3 +35,6 @@ A function that prints the 9 times table, starting with 0.
 ## Task 10 - a + b
 A function that adds two integers and returns the result.
 
+## Task 11 - 98 Battery Street, the OG
+A function that prints all natural numbers for n to 98 followed by a new line
+
