@@ -2,11 +2,13 @@
 /**
  * _islower - a function that checks for lowercase letters.
  *
- * Return: 1 (Success) and 0 (Failure)
+ * @c: The character in ASCII code
+ *
+ * Return: 1 (lowercase) and 0 (rest)
  */
 int _islower(int c)
 {
-	if (c <= 'a' && c >= 'z')
+	if (c <= 97 && c >= 122)
 	{
 		return (1);
 	}
