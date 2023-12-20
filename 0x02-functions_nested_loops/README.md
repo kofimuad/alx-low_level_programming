@@ -10,3 +10,7 @@ A function that prints the alphabet in lowercase, followed by a new line.
 
 ## Task 2 - 10 x alphabet
 A function that prints 10 times of the alphabet in lowercase, followed by a new line.
+
+## Task 3 - islower
+A function that checks for lowercase characters.
+
