@@ -1,14 +1,18 @@
 #include "main.h"
 /**
- * time_table - prints the 9 times table
+ * times_table - prints the 9 times table
  */
 void times_table(void)
 {
+	int row;
+	int col;
+	int product;
+
 	for (row = 0; row <= 9; row++)
 	{
 		for (col = 0; col <= 9; col++)
 		{
-			int product row * col;
+			int product = row * col;
 
 			/* handling the space requirement*/
 			if (col != 0)
