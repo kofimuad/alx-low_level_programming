@@ -38,3 +38,6 @@ A function that adds two integers and returns the result.
 ## Task 11 - 98 Battery Street, the OG
 A function that prints all natural numbers for n to 98 followed by a new line
 
+## Task 12 - The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself
+A function that prints the n times table, starting with 0.
+
