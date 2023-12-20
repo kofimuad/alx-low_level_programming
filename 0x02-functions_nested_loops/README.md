@@ -20,3 +20,6 @@ A function that checks for alphabetic characters, ascii alpabets(lower and upper
 ## Task 5 - Sign
 A function that prints the sign of a number
 
+## Task 6 - There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you
+A function that computes the absolute value of an integer.
+
