@@ -29,3 +29,6 @@ A function that prints the last digit of a number.
 ## Task 8 - I'm federal agent Jack Bauer, and today is the longest day of my life
 A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
+## Task 9 - Learn your times table
+A function that prints the 9 times table, starting with 0.
+
