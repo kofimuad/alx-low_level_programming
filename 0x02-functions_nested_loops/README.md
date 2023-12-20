@@ -14,3 +14,6 @@ A function that prints 10 times of the alphabet in lowercase, followed by a new 
 ## Task 3 - islower
 A function that checks for lowercase characters.
 
+## Task 4 - isalpha
+A function that checks for alphabetic characters, ascii alpabets(lower and upper) are from 65 to 122.
+
