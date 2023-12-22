@@ -16,3 +16,6 @@ A function that prints the numbers, from 0 to 9, followed by a new line.
 ## Task 4 - I believe in numbers and signs
 A function that prints the numbers, from 0 to 9, followed by a new line. Except 2 and 4.
 
+## Task 5 - Numbers constitute the only universal language
+Prints 10 times the numbers 0 to 14 followed by a new line.
+
