@@ -6,17 +6,32 @@
  */
 void print_number(int n)
 {
+	unsigned int num_abs;
+	unsigned int divisor;
+	unsigned int temp_num;
+
 	if (n < 0)
 	{
-		_putchar('-'); /* prints minus sign for negative nums */
-		n = -n; /* works for absolutes */
+		_putchar('-');
+		num_abs = -n;
+	}
+	else
+	{
+		num_abs = n;
 	}
 
-	/* Recursively print the number excluding the last digit */
-	if (n / 10 != 0)
+	temp_num = num_abs;
+	divisor = 1;
+
+	while (temp_num > 9)
 	{
-		print_number(n / 10);
+		temp_num /= 10;
+		divisor *= 10;
 	}
-	/* print the last digit */
-	_putchar('0' + n % 10);
+
+	while (divisor >= 1)
+	{
+		_putchar(((num_abs / divisor) % 10) + '0');
+		divisor /= 10;
+	}
 }
