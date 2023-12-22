@@ -22,3 +22,6 @@ Prints 10 times the numbers 0 to 14 followed by a new line.
 ## Task 6 - The shortest distance between two points is a straight line
 A function that draws a straight line in the terminal.
 
+## Task 7 - I feel like I am diagonally parked in a parallel universe
+A function that draws a diagonal line in the terminal
+
