@@ -11,3 +11,6 @@ A function that swaps the values of two integers. Store the first variable in a 
 ## Task 2 - This report, by its very length, defends itself against the risk of being read
 A function that returns the length of a string, you are not allowed to use strlen() function.
 
+## Task 3 - I do not fear computers. I fear the lack of them.
+A function that prints a string, followed by a new line, to stdout.
+
