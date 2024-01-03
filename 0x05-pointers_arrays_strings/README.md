@@ -8,3 +8,6 @@ A function that takes a pointer to an int as parameter and updates the value it 
 ## Task 1 - Don't swap horses in crossing a stream
 A function that swaps the values of two integers. Store the first variable in a temporary variable (say var) before swapping
 
+## Task 2 - This report, by its very length, defends itself against the risk of being read
+A function that returns the length of a string, you are not allowed to use strlen() function.
+
