@@ -1,41 +1,35 @@
+#include "main.h"
+
 /**
- * _atoi - convert a string to an integer.
- * @s: The string to be converted.
- *
- * Description: Converts a string to an integer taking into account
- * all the '-' and '+' signs before the number. If there are no numbers
- * in the string, the function returns 0. Does not use long, does not
- * declare new array variables, and does not hard-code special values.
- * Return: The integer value of the string.
+ * _atoi - converts a string to an integer.
+ * @s: input string.
+ * Return: integer.
  */
 int _atoi(char *s)
 {
-	int result = 0;
-	int sign = 1; /* Positive by default */
+	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
 
-	/* Iterate over the string */
-	while (*s)
+	while (*(s + count) != '\0')
 	{
-		/* Check for minus sign */
-		if (*s == '-')
+		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
+			break;
+
+		if (*(s + count) == '-')
+			pn *= -1;
+
+		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 		{
-			sign *= -1;
+			if (size > 0)
+				m *= 10;
+			size++;
 		}
-
-		/* Process digits */
-		if (*s >= '0' && *s <= '9')
-
-		{
-			/* Convert digit character to integer and add to result */
-			result = result * 10 + (*s - '0');
-
-			/* Check next character to determine if digit sequence continues */
-			if (*(s + 1) < '0' || *(s + 1) > '9')
-			{
-				break;
-			}
-		}
-		s++;
+		count++;
 	}
-	return (result * sign); /* Apply the sign */
+
+	for (i = count - size; i < count; i++)
+	{
+		oi = oi + ((*(s + i) - 48) * m);
+		m /= 10;
+	}
+	return (oi * pn);
 }
