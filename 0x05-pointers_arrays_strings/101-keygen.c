@@ -7,18 +7,18 @@
  */
 int main(void)
 {
-	int password_length = 8; /*Define the desired length of the password*/
+	int r = 0, c = 0;
+	time_t t;
 
-	srand(time(NULL)); /*Seed the random number generator*/
-
-	printf("Random Password: ");
-	for (int i = 0; i < password_length; i++)
+	srand((unsigned int) time(&t));
+	while (c < 2772)
 	{
-		char random_char = 33 + rand() % 94; /* Gen. random char between 33 and 126*/
-
-		printf("%c", random_char);
+		r = rand() % 128;
+		if ((c + r) > 2772)
+			break;
+		c = c + r;
+		printf("%c", r);
 	}
-	printf("\n");
-
+	printf("%c\n", (2772 - c));
 	return (0);
 }
