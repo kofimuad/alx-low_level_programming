@@ -14,3 +14,6 @@ A function that returns the length of a string, you are not allowed to use strle
 ## Task 3 - I do not fear computers. I fear the lack of them.
 A function that prints a string, followed by a new line, to stdout.
 
+## Task 4 - I can only go one way, I've not got a reverse gear
+A function that prints a string, in reverse, followed by a new line.
+
