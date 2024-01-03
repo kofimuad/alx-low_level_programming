@@ -32,3 +32,6 @@ A function that prints n elements of an array of integers, followed by a new lin
 ## Task 9 - strcpy
 Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
 
+## Task 10 - Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers 
+A function that converts a string to an integer.
+
