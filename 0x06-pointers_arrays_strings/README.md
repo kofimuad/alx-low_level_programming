@@ -13,3 +13,6 @@ A function that concatenates two strings
 ## Task 2 - strncpy
 A function that copies a string
 
+## Task 3 - strcmp
+A function that compares two strings.
+
