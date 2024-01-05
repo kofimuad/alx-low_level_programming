@@ -16,3 +16,6 @@ A function that copies a string
 ## Task 3 - strcmp
 A function that compares two strings.
 
+## Task 4 -  I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
+A function that reverse the content of an array on integers.
+
