@@ -10,3 +10,6 @@ A function that concatenates two strings
 -it will use at most n bytes from src; and
 -src does not need to be null-terminated if it contains n or more bytes
 
+## Task 2 - strncpy
+A function that copies a string
+
