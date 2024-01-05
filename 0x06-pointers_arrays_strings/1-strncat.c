@@ -4,24 +4,23 @@
  * @dest: first string
  * @src: concatenated string (second string)
  * @n: the threshold
- * Return: dest
+ * Return: pointer to dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
 	int dest_len = 0;
 	int i = 0;
 
-	while (dest[dest_len] != '0')
+	while (*(dest + dest_len) != '\0') /*same as dest[dest_len]*/
 	{
 		dest_len++;
 	}
+
 	while (i < n)
 	{
-		dest[dest_len] = src[i];
-		if src[i] == '\0'
-		{
+		*(dest + dest_len) = *(src + i);
+		if (*(src + i) == '\0')
 			break;
-		}
 		dest_len++;
 		i++;
 	}
