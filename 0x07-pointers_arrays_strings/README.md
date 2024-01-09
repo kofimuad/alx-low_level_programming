@@ -8,3 +8,8 @@ A function that fills the memory with a constant byte.
 ## Task 1 - 1.memcpy
 A function that copies memoery area. ```dest[i] = src[i]```
 
+## Task 2 - strchr
+A function that locates a character in a string. 
+- ```s``` pointer to a string.
+- ```c``` character to be located.
+
