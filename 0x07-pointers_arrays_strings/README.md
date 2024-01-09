@@ -13,3 +13,6 @@ A function that locates a character in a string.
 - ```s``` pointer to a string.
 - ```c``` character to be located.
 
+## Task 3 - strspn
+A function that gets the length of a prefix substring
+
