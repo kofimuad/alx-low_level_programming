@@ -16,3 +16,9 @@ A function that locates a character in a string.
 ## Task 3 - strspn
 A function that gets the length of a prefix substring
 
+## Task 4 - strpbrk
+A function that searches a string for any of a set of bytes
+- ```s```string to be search.
+- ```accept```string to be compared to string ```s```.
+return a pointer to the particular character (byte) that matches one of the byte in ```accept```.
+
