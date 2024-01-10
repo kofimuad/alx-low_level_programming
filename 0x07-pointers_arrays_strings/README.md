@@ -28,4 +28,6 @@ A function that locates a substring
 - null bytes are not compares.
 - return pointer to the beginning of located string and ```NULL``` if substring is not found.
 
+## Task 6 - Chess is mental torture
+A function that prints a chessboard.
 
