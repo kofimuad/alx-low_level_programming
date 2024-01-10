@@ -2,10 +2,10 @@
 
 This is the last project I think on pointers.
 
-## Task 0 - 0. memset
+## Task 0 - memset
 A function that fills the memory with a constant byte.
 
-## Task 1 - 1.memcpy
+## Task 1 - memcpy
 A function that copies memoery area. ```dest[i] = src[i]```
 
 ## Task 2 - strchr
@@ -30,4 +30,7 @@ A function that locates a substring
 
 ## Task 6 - Chess is mental torture
 A function that prints a chessboard.
+
+## Task 7 - The line of life is a ragged diagonal between duty and desire
+A function that prints the sum of 2 diagonals of a square matrix of integers.
 
