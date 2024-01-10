@@ -34,3 +34,6 @@ A function that prints a chessboard.
 ## Task 7 - The line of life is a ragged diagonal between duty and desire
 A function that prints the sum of 2 diagonals of a square matrix of integers.
 
+## Task 8 - Double pointer, double fun
+A function that sets the value of a pointer to a char.
+
