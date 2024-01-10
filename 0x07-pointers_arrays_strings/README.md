@@ -20,5 +20,12 @@ A function that gets the length of a prefix substring
 A function that searches a string for any of a set of bytes
 - ```s```string to be search.
 - ```accept```string to be compared to string ```s```.
-return a pointer to the particular character (byte) that matches one of the byte in ```accept```.
+- return a pointer to the particular character (byte) that matches one of the byte in ```accept```.
+
+## Task 5 - strstr
+A function that locates a substring
+- finds first occurence of substring ```needle``` in string ```haystack```
+- null bytes are not compares.
+- return pointer to the beginning of located string and ```NULL``` if substring is not found.
+
 
