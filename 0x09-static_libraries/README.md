@@ -25,3 +25,5 @@ Create a static library ```libmy.a``` that contains all the functions listed bel
 - char *_strpbrk(char *s, char *accept);
 - char *_strstr(char *haystack, char *needle);
 
+## Task 2 - Without libraries what have we? We have no past and no future
+Create a script called ```create_static_lib.sh``` that creates a static library called ```liball.a``` from all the ```.c``` files that are in the current directory.
