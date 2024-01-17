@@ -8,3 +8,6 @@ A function that creates an array of chars and initializes it with a specific cha
 ## Task 1 - The woman who has no imagination has no wings
 A function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 
+## Task 2 - He who is not courageous enough to take risks will accomplish nothing in life
+A function that concatenates two strings.
+
