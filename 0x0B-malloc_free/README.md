@@ -13,3 +13,7 @@ A function that concatenates two strings.
 
 ## Task 3 -  If you even dream of beating me you'd better wake up and apologize
 A function that returns a pointer to a 2 dimensional array of integers.
+
+## Task 4 - It's not bragging if you can back it up
+A function that frees a 2 dimensional grid previously created by your ```alloc_grid``` function.
+
