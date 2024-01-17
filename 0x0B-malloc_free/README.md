@@ -17,3 +17,6 @@ A function that returns a pointer to a 2 dimensional array of integers.
 ## Task 4 - It's not bragging if you can back it up
 A function that frees a 2 dimensional grid previously created by your ```alloc_grid``` function.
 
+## Task 5 - It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe
+A function that concatenates all the arguments of your program.
+
