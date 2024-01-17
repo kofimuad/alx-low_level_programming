@@ -11,3 +11,5 @@ A function that returns a pointer to a newly allocated space in memory, which co
 ## Task 2 - He who is not courageous enough to take risks will accomplish nothing in life
 A function that concatenates two strings.
 
+## Task 3 -  If you even dream of beating me you'd better wake up and apologize
+A function that returns a pointer to a 2 dimensional array of integers.
