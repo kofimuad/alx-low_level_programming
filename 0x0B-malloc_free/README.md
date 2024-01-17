@@ -5,3 +5,6 @@ This project is on malloc and free. Creating space in the heap for further manip
 ## Task 0 - Float like a butterfly, sting like a bee
 A function that creates an array of chars and initializes it with a specific char.
 
+## Task 1 - The woman who has no imagination has no wings
+A function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+
