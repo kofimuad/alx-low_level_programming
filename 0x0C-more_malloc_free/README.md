@@ -10,3 +10,5 @@ a function that concatenates two strings.
 ## Task 2 - ```_calloc```
 A function that allocates memory for an array, using ```malloc```.
 
+## Task 3 - array_range
+a function that creates an array of integers.
