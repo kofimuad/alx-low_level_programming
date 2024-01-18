@@ -11,4 +11,8 @@ a function that concatenates two strings.
 A function that allocates memory for an array, using ```malloc```.
 
 ## Task 3 - array_range
-a function that creates an array of integers.
+A function that creates an array of integers.
+
+## Task 4 - ```_realloc```
+A function that reallocates a memory block using malloc and free
+
