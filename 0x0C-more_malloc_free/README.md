@@ -7,3 +7,6 @@ A function that allocates memory using malloc
 ## Task 1 - string_nconcat
 a function that concatenates two strings.
 
+## Task 2 - ```_calloc```
+A function that allocates memory for an array, using ```malloc```.
+
