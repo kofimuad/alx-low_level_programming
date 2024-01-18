@@ -16,3 +16,5 @@ A function that creates an array of integers.
 ## Task 4 - ```_realloc```
 A function that reallocates a memory block using malloc and free
 
+## Task 5 - We must accept finite disappointment, but never lose infinite hope
+A program that multtiplies two positive interger numbers.
