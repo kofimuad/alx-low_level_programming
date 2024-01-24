@@ -7,3 +7,6 @@ Create a header file that defines a macro named SIZE as an abbreviation for the 
 ## Task 1 - Pi
 A header file that defines a macro called ```PI``` as an abbreviation of the token ```3.14159265359```
 
+## Task 2 - File name
+Write a program that prints the name of the file it was compiled from, followed by a new line.
+
