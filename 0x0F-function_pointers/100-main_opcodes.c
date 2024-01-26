@@ -1,8 +1,3 @@
-/*
- * File: 100-main_opcodes.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
