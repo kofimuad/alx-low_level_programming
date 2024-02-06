@@ -13,3 +13,6 @@ A function that adds a node to the beginning of a listint_t list
 ## Task 3 - Add node at end
 A function that adds a node at the end of a listint_t list.
 
+## Task 4 - Free list
+A function that frees a listint_t list.
+
