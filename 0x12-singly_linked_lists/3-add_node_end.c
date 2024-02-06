@@ -8,11 +8,12 @@
  * Return: NULL if node is empty
  * Otherwise - the address of new element
  */
-list_t **add_node_end(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	char *dup;
 	int len;
-	list_t *new, *last;
+	list_t *new;
+	list_t *last;
 
 	new = malloc(sizeof(list_t));
 
