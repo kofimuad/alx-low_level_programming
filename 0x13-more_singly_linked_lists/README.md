@@ -16,3 +16,6 @@ A function that adds a node at the end of a listint_t list.
 ## Task 4 - Free list
 A function that frees a listint_t list.
 
+## Task 5 - Free
+Frees a listint_t list, function sets the head to NULL
+
