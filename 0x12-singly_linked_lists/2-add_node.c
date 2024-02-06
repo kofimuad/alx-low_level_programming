@@ -3,7 +3,7 @@
 
 /**
  * add_node - adds node to the beginning of a string.
- * @head - the head of the list_t list
+ * @head: the head of the list_t list
  * @str: string to be added to the list_t list.
  * Return: NULL if function fails.
  * Otherwise: the address of the new element.
