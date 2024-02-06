@@ -7,3 +7,6 @@ Write a function that prints the elements of a ```list_t``` list.
 ## Task 1 - List length
 A function that returns that number of elements in a list_t list.
 
+## Task 2 - Add node
+Adds a new node to the beginning of a list_t list
+
