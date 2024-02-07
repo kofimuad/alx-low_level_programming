@@ -19,3 +19,6 @@ A function that frees a listint_t list.
 ## Task 5 - Free
 Frees a listint_t list, function sets the head to NULL
 
+## Task 6 - Pop
+A function that deletes the head node of listint_t and returns its data n
+
