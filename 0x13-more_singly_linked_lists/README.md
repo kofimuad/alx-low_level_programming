@@ -24,3 +24,7 @@ A function that deletes the head node of listint_t and returns its data n
 
 ## Task 7 - Get node at index
 A function that returns the nth node of a listint_t list.
+
+## Task 8 - Sum list
+A function that returns the sum of all data(n) of the listint_t list
+
