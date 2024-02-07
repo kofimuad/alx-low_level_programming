@@ -22,3 +22,5 @@ Frees a listint_t list, function sets the head to NULL
 ## Task 6 - Pop
 A function that deletes the head node of listint_t and returns its data n
 
+## Task 7 - Get node at index
+A function that returns the nth node of a listint_t list.
