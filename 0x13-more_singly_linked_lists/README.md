@@ -28,3 +28,6 @@ A function that returns the nth node of a listint_t list.
 ## Task 8 - Sum list
 A function that returns the sum of all data(n) of the listint_t list
 
+## Task 9 - Insert
+A function that inserts a new node at a given position
+
