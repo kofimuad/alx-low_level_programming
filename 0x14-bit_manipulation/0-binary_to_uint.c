@@ -10,19 +10,22 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num = 0;
+	unsigned int mult = 1;
+	int len;
 
 	if (b == NULL)
 		return (0);
 
-	int i;
+	for (len = 0; b[len];)
+		len++;
 
-	for (i = 0; b[i] != '\0'; i++)
+	for (len = len - 1; len >= 0; len--)
 	{
-		if (b[i] != '0'&& b[i] != '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
 
-		num = num << 1;
-		num = num + (b[i] - '0');
+		num = num + (b[len] - '0') * mult;
+		mult = mult * 2;
 	}
 
 	return (num);
