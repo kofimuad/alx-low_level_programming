@@ -13,7 +13,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int mult = 1;
 	int len;
 
-	if (b == '\0')
+	if (b == NULL)
 		return (0);
 
 	for (len = 0; b[len];)
