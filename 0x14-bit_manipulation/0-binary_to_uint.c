@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 
 		num += (b[len] - '0') * mult;
-		mult = mult * 2;
+		mult *= 2;
 	}
 
 	return (num);
