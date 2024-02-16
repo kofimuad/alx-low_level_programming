@@ -10,3 +10,6 @@ A function that prints out the binary representation of a number
 ## Task 2 - 10
 Gets value of a bit at a given index.
 
+# Task 3 - 11
+Function that sets the value of bit to 1 at an index.
+
