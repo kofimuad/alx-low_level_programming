@@ -13,3 +13,7 @@ Gets value of a bit at a given index.
 # Task 3 - 11
 Function that sets the value of bit to 1 at an index.
 
+# Task 4 - 100
+Sets the value of a bit to 0 at a given index.
+
+
