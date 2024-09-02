@@ -2,7 +2,7 @@
 
 /**
  * hash_table_get - gets the value in a node for a specific key
- * @ht - the hash table to search.
+ * @ht: pointer to the hash table to search.
  * @key: the key associated with the value.
  *
  * Return: If no value stored NULL
@@ -23,6 +23,6 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	node = ht->array[index];
 	while (node && strcmp(node->key, key) != 0)
 		node = node->next;
-	
+
 	return ((node == NULL) ? NULL : node->value);
 }
