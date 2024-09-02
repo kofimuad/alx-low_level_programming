@@ -11,3 +11,6 @@ a hash function implementing the djb2 algorithm.
 ## Task 2 - key->index
 A function that gives you the index of a key.
 
+## Task 3 - ht['betty'] = 'cool'
+A function that adds an element to the hash table.
+
