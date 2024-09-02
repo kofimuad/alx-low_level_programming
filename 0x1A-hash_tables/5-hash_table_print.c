@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- * hash_table_prints - prints a hash table
+ * hash_table_print - prints a hash table
  * @ht: pointer to the hash table to be printed.
  *
  */
@@ -23,7 +23,7 @@ void hash_table_print(const hash_table_t *ht)
 			node = ht->array[i];
 			while (node != NULL)
 			{
-				printf("'%s':'%s'", node->key, node->value);
+				printf("'%s': '%s'", node->key, node->value);
 				node = node->next;
 				if (node != NULL)
 					printf(", ");
